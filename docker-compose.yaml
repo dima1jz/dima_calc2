@@ -1,0 +1,22 @@
+#version: '3.3'
+
+services:
+  nginx:
+    image: nginx:latest
+    container_name: test_project_nginx
+    ports:
+      - "9000:80"
+    volumes:
+      - ./app:/code
+      - ./conf/site.conf:/etc/nginx/conf.d/default.conf
+    links:
+      - php
+  php:
+    build: ./conf/php
+    container_name: test_project_fpm
+    develop:
+      watch:
+        - action: sync
+          path: ./app
+          target: /code
+
