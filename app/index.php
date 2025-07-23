@@ -1,11 +1,5 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="author" content="Belyaev Dmitry">
-        <meta name="description" content="Онлайн калькулятор">
-        <meta name="keywords" content="Калькулятор">
-        <title>Калькулятор</title>
-    </head>
+    <?php include 'head.php'; ?>
         <body>
             <?php include 'navbar.php'; ?>
             <form action="" method="get">
