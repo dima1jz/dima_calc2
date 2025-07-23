@@ -1,6 +1,6 @@
 FROM php:8.2-fpm
 
-MAINTAINER Khasanov Aynur <xacahob@bk.ru>
+#MAINTAINER Khasanov Aynur <xacahob@bk.ru>
 
 COPY init.sh /init.sh
 
