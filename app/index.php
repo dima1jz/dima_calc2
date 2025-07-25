@@ -4,10 +4,8 @@
             <?php include 'navbar.php'; ?>
             <form action="" method="get">
                 <p>Выбирите математическую функцию вычеслений.</p>
-                <input type="text" disabled><br><br>
-                <input type="text" disabled><br><br>
-                <input type="submit" value="Посчитать">
-                <input type="reset" value="Очистить">
+                <input type="text" disabled title="Поле отключено"><br><br>
+                <input type="text" disabled title="Поле отключено">
             </form>
             <br>
         </body>
