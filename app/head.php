@@ -1,6 +1,7 @@
 <?php
 
-$title = $content = "Калькулятор";
+$title = "Калькулятор";
+$content = "Калькулятор";
 
 if ($_SERVER['SCRIPT_NAME'] == "/index.php") {
 
@@ -30,6 +31,11 @@ if ($_SERVER['SCRIPT_NAME'] == "/division.php") {
 
     $title = "Деление";
     $content = "Деление";
+}
+
+if ($_SERVER['SCRIPT_NAME'] == "/authentication.php") {
+
+    $title = "Вход";
 }
 
 ?>

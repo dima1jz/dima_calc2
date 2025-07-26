@@ -4,4 +4,5 @@
     <a href="/substraction.php">Вычитание<a>
     <a href="/multiplication.php">Умножение</a>
     <a href="/division.php">Деление</a>
+    <a href="/authentication.php">Войти</a>
 </nav>
